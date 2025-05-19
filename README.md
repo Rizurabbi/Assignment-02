@@ -1,11 +1,14 @@
-Credit Card Fraud Detection Analysis
-🔍 Exploring patterns in fraudulent credit card transactions
+# Credit Card Fraud Detection Analysis  
+🔍 _Exploring patterns in fraudulent credit card transactions_  
 
-What’s this about?
-This project analyzes a dataset of credit card transactions to spot differences between fraudulent and normal transactions. The goal? Find hidden patterns that could help detect fraud faster!
+## 📌 What's This About?  
+This project analyzes a dataset of credit card transactions to identify differences between:  
+-  **Legitimate transactions**  
+-  **Fraudulent transactions**    
 
-Key Takeaways
-✔ Fraud is rare but costly: Only 0.17% of transactions were fraud (492 out of 284,807).
-✔ Small transactions = higher risk: 75% of frauds were under $50, but a few big ones caused major damage.
-✔ Time matters: Fraud happens anytime, while normal transactions follow daily routines (like lunchtime spikes).
-✔ Sneaky behavior: Fraudsters often make small test charges before larger ones.
+## 🛠 How to Use  
+1. **Kaggle Notebook**: [Open in Kaggle](#) *(replace with your link)*  
+2. **Run locally**:  
+   ```bash
+   pip install pandas matplotlib seaborn jupyter
+   jupyter notebook credit_card_fraud_analysis.ipynb
