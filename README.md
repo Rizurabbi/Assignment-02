@@ -1,17 +1,25 @@
-# Credit Card Fraud Detection Analysis  
-🔍 _Exploring patterns in fraudulent credit card transactions_  
+# Credit Card Fraud Detection Analysis
 
-## 📌 What's This About?  
-This project analyzes a dataset of credit card transactions to identify differences between:  
--  **Legitimate transactions**  
--  **Fraudulent transactions**    
+![Fraud Detection](https://img.shields.io/badge/Type-Machine_Learning-blue) 
+![Python](https://img.shields.io/badge/Python-3.8%2B-success)
 
-⚠ **Dataset Note**:  
-A downsampled version is included. Get the [full dataset (154MB) from Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
+## 📌 Overview
+Machine learning models to detect fraudulent credit card transactions, optimized for imbalanced data.
 
-## 🛠 How to Use  
-1. **Kaggle Notebook**: [Open in Kaggle](#) *(replace with your link)*  
-2. **Run locally**:  
-   ```bash
-   pip install pandas matplotlib seaborn jupyter
-   jupyter notebook credit_card_fraud_analysis.ipynb
+## 📂 Dataset
+**Source**: [Kaggle Credit Card Fraud Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)  
+- 284,807 transactions (492 frauds = 0.172%)
+- 30 features (28 PCA-transformed + Time + Amount)
+
+## 🚀 How to Use
+
+### Option 1: Run in Kaggle
+1. Open the [Kaggle Notebook](https://www.kaggle.com/your-notebook-link)
+2. Click "Copy & Edit" to create your version
+3. Run all cells (Ctrl/Cmd + F9)
+
+### Option 2: Run Locally
+```bash
+# 1. Clone repository
+git clone https://github.com/yourusername/fraud-detection.git
+cd fraud-detection
